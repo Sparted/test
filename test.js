@@ -26,7 +26,7 @@
       if (arg % 2)
         setTimeout(resolve.bind(Promise, 'Promise ' + arg + ' resolved'), arg * 100);
       else
-        setTimeout(resolve.bind(Promise, 'Promise ' + arg + ' resolved'), arg * 1000);
+        setTimeout(resolve.bind(Promise, 'Promise ' + arg + ' resolved'), arg * 200);
     });
   }
 
